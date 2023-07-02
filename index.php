@@ -1,0 +1,30 @@
+<!-- 
+filename: index.php
+author: Anh Tuan Doan
+created: 10/5/2022
+last modified: 29/5/2022
+description: The homepage for the JPEG website
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage of the JPEG website">
+    <meta name="keywords" content="JPEG">
+    <meta name="author" content="Anh Tuan Doan">
+    <title>JPEG homepage</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <?php
+    $page = "index";
+    include_once("header.inc"); // include the header element
+    include_once("footer.inc"); // include the footer element
+    ?>
+</body>
+
+</html>
