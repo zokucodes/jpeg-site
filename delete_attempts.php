@@ -1,10 +1,3 @@
-<!-- 
-filename: delete_attempts.php
-author: Anh Tuan Doan
-created: 10/5/2022
-last modified: 29/5/2022
-description: delete all attempts of a student
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
