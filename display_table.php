@@ -1,11 +1,5 @@
 <?php
-/*
-filename: display_table.php
-author: Anh Tuan Doan
-created: 10/5/2022  
-last modified: 29/5/2022
-description: display a query result as a table
-*/
+
 function display_table($result) {
     $fields = mysqli_fetch_fields($result); // get the columns from the result
     echo "<table class='information-table'><thead><tr>";
